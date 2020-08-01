@@ -1,0 +1,1 @@
+<!-- Have nodemon installed globaly -->
