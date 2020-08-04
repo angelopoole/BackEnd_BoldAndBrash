@@ -1,5 +1,10 @@
 const router = require('express').Router()
 
+
+// router.route('/login').get((req, res) => {
+
+// })
+
 router.route('/').get((req, res) => {
     user.find()
         .then(users => res.json(users))
