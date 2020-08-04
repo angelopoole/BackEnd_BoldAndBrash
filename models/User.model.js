@@ -9,6 +9,9 @@ const userSchema = new Schema({
         trim: true,
         minLength: 5
     },
+    cart: {
+        type: 
+    }
 },{
     timestamps: true,
 });
