@@ -5,13 +5,12 @@ const userSchema = new Schema({
     username: {
         type: String,
         required: true,
-        uniqure: true,
+        unique: true,
         trim: true,
-        minLength: 5
+        minlength: 5
     },
     cart: {
         type: Array,
-        required: false
     }
 },{
     timestamps: true,
