@@ -10,7 +10,8 @@ const userSchema = new Schema({
         minLength: 5
     },
     cart: {
-        type: 
+        type: Array,
+        required: false
     }
 },{
     timestamps: true,
